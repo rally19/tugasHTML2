@@ -1,0 +1,50 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #919191;
+    border-width: 2px;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #5d5d5d;
+    color: #fdfdfd;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #dddddd;
+  }
+
+  h1 {
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .FOTO {
+    height: 100px;
+    width: 100px;
+  }
+
+  .FOTOX {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .BITLE {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+
+  .backer {
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+  }
