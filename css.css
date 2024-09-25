@@ -17,7 +17,7 @@ table {
   }
   
   tr:nth-child(odd) {
-    background-color: #dddddd;
+    background-color: #efefef;
   }
 
   h1 {
@@ -47,4 +47,9 @@ table {
     margin-top: 20px;
     justify-content: center;
     text-align: center;
+  }
+
+  tr:hover {
+    background-color: #a7a6a6;
+    color: white;
   }
